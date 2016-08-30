@@ -1,0 +1,2943 @@
+body {
+  font-family: "Helvetica Neue", Microsoft YaHei, Helvetica, Arial, sans-serif;
+  background-color: #e7e7e8;
+}
+
+.btn {
+  min-width: 35px;
+  border-radius: 2px;
+
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ccc;
+  box-shadow: 0 0 5px rgba(88, 102, 110, 0.5);
+}
+
+
+.form-control {
+  border-radius: 2px;
+}
+
+.panel-heading span {
+  line-height: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #58666e;
+}
+
+label {
+  font-weight: normal;
+}
+
+.nav.nav-tabs a {
+  color: #58666e;
+}
+
+.modal-content {
+  border-radius: 2px;
+}
+
+ul.nav.nav-tabs {
+  border-collapse: collapse;
+}
+
+.nav-tabs > li > a {
+  border-radius: 0;
+  border: 1px solid #ddd;
+  margin-right: 0;
+  border-bottom: 0;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border-bottom-color: #ddd;
+  border-top: 2px solid #159EAD;
+}
+
+.input-group-addon {
+  border-radius: 2px;
+}
+
+.btn.btn-default {
+  min-width: 35px;
+}
+
+.btn.btn-primary {
+
+  background-color: #159EAD;
+  border-color: #159EAD;
+
+}
+
+.sameBtnWidth {
+  width: 120px;
+}
+
+/********login********/
+.login {
+  /*background-color: #159EAD;*/
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1000;
+  overflow: hidden;
+  background-size: cover;
+  color: #58666e;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.login .login_head {
+  width: 100%;
+  height: 30px;
+  background: #159EAD;
+  color: #fff;
+  opacity: .6;
+  text-align: center;
+  font-size: 18px;
+  display: none;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #f7fbfd;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -100;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.loginForm_input::-webkit-input-placeholder {
+  color: #58666e;
+}
+
+.loginForm_input::-moz-placeholder {
+  color: #58666e;
+}
+
+.loginForm_input::-ms-input-placeholder {
+  color: #58666e;
+}
+
+.form-groupDistance {
+  margin-top: 0;
+}
+
+.form-groupDistance hr {
+  width: 90%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.form-group_radius {
+  width: 260%;
+  height: 50px;
+  padding-left: 5px;
+  border-bottom: none;
+  border-radius: 5px;
+}
+
+.form-group_radius:hover {
+  background: white;
+}
+
+.form_input_border {
+  width: 100%;
+  height: auto;
+  border: 2px #fffafa solid;
+  border-radius: 5px;
+}
+
+.login_to_white::selection {
+  background-color: white;
+}
+
+.login_to_white::-moz-selection {
+  background-color: white;
+}
+
+.login-form .form_input_border .form-group {
+  margin-bottom: 0px;
+}
+
+.form-group.login_to_white {
+  width: 100%;
+}
+
+.input_icon.input-group-addon {
+  width: 10%;
+}
+
+.loginForm_input {
+  width: 100%;
+}
+
+.login-form .form_input_border .form-group .input-group {
+  height: 50px;
+  border: 1px solid #ccc;
+}
+
+.login-form .form_input_border .form-group .input-group .input-group-addon, .login-form .form_input_border .form-group .input-group input {
+  border: none;
+  height: 50px;
+  background-color: #fff;
+  color: #58666e;
+  padding-left: 10px;
+}
+
+.login_white {
+  height: 1px;
+  background: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #333;
+  text-align: center;
+  background-color: #1E65C9;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 2px;
+}
+
+.login-widget {
+  max-width: 450px;
+  max-height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 120px;
+}
+
+.test-widget {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  box-shadow: 0px 0px 1px 1px rgba(161, 159, 159, 0.2);
+  position: relative;
+  margin-top: 20px;
+}
+
+.login-widget header {
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.login-widget .square {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #e7ecee;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.login-widget h1 {
+  display: inline-block;
+  font-size: 1.8em;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.login_button_top {
+  /*margin-top: 50px;*/
+}
+
+.login_bottom {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.btn.btn-primary.btn-block.sameBtnBcg {
+  background-color: #159EAD;
+  border: 3px #fff solid;
+}
+
+.form_center {
+  text-align: center;
+}
+
+.login a {
+  color: white;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form .form-group #c1 {
+  margin-left: 0;
+}
+
+.userRegister {
+  background-color: #159EAD;
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -10;
+  overflow: hidden;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.register-form .form-group .input-group .input-group-addon, .register-form .form-group .input-group input {
+  color: #58666e;
+}
+
+.change-password.register-form .form-group .input-group .input-group-addon {
+  color: #fff;
+}
+
+.change-password.register-form .form-group .input-group input {
+  color: #58666e;
+}
+
+.register-input::-webkit-input-placeholder {
+  color: #58666e;
+}
+
+.register-input::-moz-placeholder {
+  color: #58666e;
+}
+
+.register-input::-ms-input-placeholder {
+  color: red;
+}
+
+.form-groupDistance {
+  margin-top: 0;
+}
+
+.userSelectIdentity {
+  background: url("../images/backdrop.png") center no-repeat;
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -10;
+  overflow: hidden;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  color: #fff;
+}
+
+.identity-widget {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 50px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.register-form .form-group {
+  margin-bottom: 20px;
+}
+
+.register-form .form-group #c1 {
+  margin-left: 0;
+}
+
+.userChangePwd {
+  background: #f0f3f4;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.requestEmail_div {
+  background: #159EAD;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  z-index: -10;
+  overflow: hidden;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.requestEmail_div a {
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn.btn-lg.btn-primary.btn-block {
+  padding: 10px 30px;
+  width: 100%;
+  background-color: #4BCBF3;
+  border: 3px #fff solid;
+}
+
+.DeviceUnbind .jstree-default .jstree-disabled {
+  color: #e7e7e8;
+}
+.DeviceUnbind .jstree-anchor {
+  line-height: 24px;
+  height: 24px;
+  color: #1D1A1A;
+}
+
+.btn.btn-lg.btn-primary.btn-block.login-btn {
+  background-color: #159EAD;
+}
+
+.mainViewTpl {
+  width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+.mainHeader {
+  width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/*****header*****/
+.navbar {
+  /*border-bottom: 1px solid #d1d4d7;*/
+  z-index: 1010;
+  padding: 0;
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%;
+  background: #159EAD;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  padding: 7px 15px;
+}
+
+/********nav*******/
+#nav {
+  position: fixed;
+  z-index: 1000;
+  top: 50px;
+  bottom: 0;
+  width: 200px;
+  color: #8d8d8d;
+  border-right: 1px solid #dee5e7;
+}
+
+.nav.navBg > li.nav-bar-parent {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.nav-primary {
+  background-color: #fff;
+}
+
+.navBg {
+  background-color: #fff;
+}
+
+.nav-primary ul li a {
+  color: #58666e;
+}
+
+.nav-primary ul li a span.visible-lg {
+  display: inline-block;
+}
+
+.submenu {
+  background-color: #fff;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  left: 100%;
+  top: 0;
+  border-radius: 0;
+  margin: 0;
+  min-width: 100px;
+}
+
+.dropdown-submenu > .dropdown-menu li {
+  padding: 5px 0;
+}
+
+#peopleOperation {
+  color: #FFFFFF;
+}
+
+#peopleOperation:hover {
+  background-color: #17b2e2;
+}
+
+#dropdownMenu1 {
+  background-color: #159EAD;
+  color: #FFF;
+}
+
+#itemMenu a:hover,
+#itemMenu a:focus {
+  background-color: #f4f5f9;
+  /*color: #fff;*/
+}
+
+#itemMenu > li.active {
+  background-color: #f4f5f9;
+  /*color: #fff;*/
+  border-left: 3px solid #159EAD;
+}
+
+/*#itemMenu > li{
+  border-bottom: 1px solid #dee5e7;
+}*/
+#itemMenu li.nav-bar-child-last {
+  border-bottom: none;
+}
+
+.nav-vertical > ul > li {
+  text-align: center;
+  /*border-bottom: 1px solid #dee5e7;*/
+}
+
+.dropdown-submenu.menuLi {
+  border-bottom: 1px solid #dee5e7;
+}
+
+.nav-primary > ul > .dropdown-submenu:hover > a,
+.nav-primary > ul > .dropdown-submenu:focus > a,
+.nav-primary > ul > li > a:hover,
+.nav-primary > ul > li > a:focus {
+  color: #58666e;
+  background-color: #f4f5f9;
+}
+
+.nav-primary > ul > li > a:active,
+.nav-primary > ul > li.active > a,
+.nav-primary > ul > li.active > a:link {
+  color: #58666e;
+  border-left: 3px solid #159EAD;
+}
+
+/*.nav-vertical > ul > li > a > i{
+    display: block;
+    font-size: 1.3em;
+    margin:2px auto;
+}*/
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-image: none;
+  filter: none;
+  background-color: #159EAD;
+  color: #fff;
+}
+
+.to-top {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.to-top > a:hover {
+  text-decoration: none;
+}
+
+.to-top > a > i {
+  font-size: 42px;
+}
+
+/**************/
+#content {
+  position: relative;
+  top: 51px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-left: 200px;
+  width: 1000px;
+  height: 1400px;
+  background-color: #fff;
+}
+
+.padder {
+  padding-top: 15px;
+  background-color: #fff;
+  height: auto;
+}
+
+.breadcrumb {
+  padding: 0;
+}
+
+#beaconListGrid {
+  margin-top: 0px;
+  font-weight: normal;
+}
+
+.gridStyle {
+  min-height: 600px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+.gridStyle .panel {
+  /*background: #efefef;*/
+  /*border: none;
+  box-shadow: 0 0 6px rgba(0,0,0,.3);*/
+  border-radius: 0;
+}
+
+.gridStyle .panel .table.table-hover tr:hover {
+  /*background: #efefef;*/
+  /*border: none;
+  box-shadow: 0 0 6px rgba(0,0,0,.3);*/
+  background-color: #F4F5F9;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  background-color: #159EAD;
+  border-color: #159EAD;
+}
+
+.page-list .no-items{
+  font-size: 16px;
+  margin-right: 480px;
+  margin-top: 100px;
+}
+
+.gridStyle .panel table thead {
+  background-color: #f4f5f9;
+  color: #fff;
+}
+
+.table > thead > tr > th {
+  border-bottom: 0;
+}
+
+.gridStyle .panel table thead th {
+  font-weight: normal;
+  color: #333;
+}
+
+.btn.btn-primary.btn-sm {
+  background-color: #fff;
+  color: #58666e;
+  border-color: #ddd;
+}
+
+.ngCellText a:hover {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+/*******************/
+/****page****/
+.page-list .pagination {
+  float: left;
+}
+
+.page-list .pagination span {
+  cursor: pointer;
+}
+
+.page-list .pagination .separate span {
+  cursor: default;
+  border-top: none;
+  border-bottom: none;
+}
+
+.page-list .pagination .separate span:hover {
+  background: none;
+}
+
+.page-list .page-total {
+  float: left;
+  margin: 25px 20px;
+}
+
+.page-list .page-total input, .page-list .page-total select {
+  height: 26px;
+  border: 1px solid #ddd;
+}
+
+.page-list .page-total input {
+  width: 40px;
+  padding-left: 3px;
+}
+
+.page-list .page-total select {
+  width: 50px;
+}
+
+/****************/
+#conManage-nav {
+  background: #f1f5f9;
+  bottom: 0;
+  top: 51px;
+  position: fixed;
+  border-right: 1px solid #d1d4d7;
+  z-index: 50;
+}
+
+#conManage-nav ul li a {
+  color: #656565;
+}
+
+#conManage-nav > .btn-primary {
+  margin: 10px;
+}
+
+.conManage-padder {
+  position: absolute;
+  padding-left: 132px;
+  left: 132px;
+  right: 0;
+}
+
+.the-icons {
+  line-height: 32px;
+  height: 32px;
+  padding-left: 12px;
+  font-size: 100%;
+  color: #3a5a7a;
+  font-family: 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.the-icons > i {
+  margin-right: 2px;
+}
+
+.ng-hide, [ng-cloak] {
+  display: none !important;
+}
+
+.ng-show {
+  display: block !important;
+}
+
+/********userDetail*********/
+.set-table .form-control-2 {
+  display: inline;
+  width: 80px;
+}
+
+.img-thumbnail {
+  display: none;
+}
+
+.table-margin-top {
+  margin-top: 10px;
+}
+
+.table-margin-top table {
+  margin-top: 20px;
+}
+
+.panel {
+  border: #e0e4e8 1px solid;
+}
+
+.panel-padding {
+  padding: 15px;
+}
+
+.panel-padding p span {
+  margin-right: 25px;
+}
+
+.gridStyle2 {
+  min-height: 240px;
+  margin-top: 20px;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.tab-content select {
+  width: 200px;
+}
+
+.tab-content .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.articleView h3 {
+  text-align: center;
+}
+
+.articleView blockquote {
+  font-size: 12px;
+}
+
+.no-border {
+  border: none;
+}
+
+.checkbox-style .btn-primary {
+  background: #cccccc;
+  border: #dddddd 1px solid;
+}
+
+.checkbox-style .btn-primary.active {
+  background: #286090;
+  border: #204d74 1px solid;
+}
+
+.nav-tabs {
+  margin: auto 15px 20px 15px;
+}
+
+form#addPageForm .form-group {
+  padding: 0px;
+}
+
+form.form-horizontal .form-group {
+  padding: 10px;
+}
+
+#updateBeaconFormId {
+  border: none;
+}
+
+#addBeaconFormId {
+  border: none;
+}
+
+#addBeaconFormId .w5c-error {
+  margin-top: 5px;
+}
+
+#narbar-brandId {
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: microsoft Yahei;
+  font-weight: bold;
+}
+
+#changeImgId {
+  text-decoration: none;
+}
+
+.userRegister .form-group {
+  margin: 30px auto;
+}
+
+.register-widget {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 50px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.sameBgColor {
+  background-color: #159EAD;
+}
+
+.panel-heading {
+  width: 100%;
+  height: 68px;
+  border-bottom: 1px solid #dee5e7;
+  background-color: #fff;
+}
+
+.panel-heading span a {
+  color: #58666e;
+}
+
+.panel-heading_top {
+  margin-bottom: 40px;
+}
+
+.panel-heading.sameBgColor {
+  border: none;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.row-search {
+  margin-top: 10px;
+  margin-left: -15px;
+  padding-left: 15px;
+}
+
+.panel.col-md-12.main {
+  padding: 15px;
+}
+
+.m-b {
+  margin-bottom: 15px;
+}
+
+.nav.nav-tabs {
+  margin-top: 50px;
+}
+
+#beaconDetailForm {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#beaconDetailForm input {
+  background-color: #fff;
+}
+
+#addPageForm .w5c-error {
+  position: absolute;
+  margin-top: 4px;
+  color: red;
+}
+
+.w5c-error {
+  position: absolute;
+  margin-top: 35px;
+  color: red;
+}
+
+.guTelephone .w5c-error {
+  /*position:none;*/
+  margin-top: 5px;
+  color: red;
+}
+
+#addBeaconMacId .w5c-error {
+  position: absolute;
+  margin-top: 5px;
+  color: red;
+}
+
+form.deviceInfoForm {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  padding: 0;
+}
+
+.view-device .view-device-top {
+  width: 550px;
+  height: auto;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.view-device-top li {
+  width: 230px;
+  line-height: 30px;
+  float: left;
+}
+
+form.deviceInfoForm .w5c-error {
+  margin-top: 0px;
+  clear: both;
+}
+
+form.deviceInfoForm .form-group {
+  padding: 0;
+}
+
+form.deviceInfoForm .form-group.deviceNum .w5c-error {
+  margin-top: 35px;
+}
+
+form .substract {
+  float: left;
+  cursor: pointer;
+  padding: 0;
+  font-size: 20px;
+}
+
+form #spinner {
+  width: 80px;
+  float: left;
+  margin-left: 10px;
+  padding: 0;
+}
+
+form .add {
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+form .inputTip {
+  text-align: center;
+  color: #737373;
+}
+
+form .selectStore {
+  width: 200px;
+}
+
+form .remarkInfo {
+  width: 200px;
+}
+
+.row.row-search.data-monitor {
+  margin-top: 0;
+}
+
+.pull-left.btn.btn-primary.btn-sm.newBg {
+  background-color: #159EAD;
+  color: #fff;
+}
+
+.btn.btn-primary.btn-sm.btn-xs.date-num.newBg {
+  border: 2px solid #159EAD;
+}
+
+.main_small {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.nav.nav-tabs.nav-device {
+  margin-top: 10px;
+}
+
+.btn-xs, .btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  width: 14%;
+  margin-top: 20px;
+}
+
+.form-control.input-sm.data-date {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 235px;
+}
+
+.li-device {
+  list-style: none;
+  float: left;
+}
+
+.li-device .form-group {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.ul-device {
+  padding: 0;
+  margin: 0;
+}
+
+.li-device.li-device-date {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.li-device.li-device-data {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.li-device label {
+  cursor: pointer;
+  background-color: #0D968E;
+  color: #fff;
+  border: none;
+}
+
+.gridStyle.grid-device {
+  margin-top: 0;
+}
+
+/*
+  @?�????
+*/
+div, ul, li, span, table {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.Content_center {
+  width: 100%;
+  height: 50px;
+}
+
+#Content_center {
+  width: 100%;
+  height: 200px;
+}
+
+.more_center {
+  height: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Content_center li {
+  margin-left: 20px;
+  margin-top: 5px;
+  float: left;
+}
+
+.Content_center img {
+  width: 100px;
+  height: 65px;
+  float: left;
+  overflow: hidden;
+}
+
+.Content_img {
+  width: 332px;
+  height: 70px;
+  float: left;
+  border: 1px #333333 solid;
+}
+
+.Content_img span {
+  float: left;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.Content_hundred {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.Content_hundred .viewDeviceSelect {
+  width: 50px;
+}
+
+.Content_center_liright {
+  margin-right: 20px;
+}
+
+.li_Style li {
+  width: 350px;
+  float: left;
+  line-height: 30px;
+}
+
+.fifty {
+  width: 3%;
+}
+
+.fifty.pageConfRadio {
+  width: 10%;
+  margin-top: 30px;
+}
+
+.fifty_fifty {
+  width: 97%;
+}
+
+.add-card-hr {
+  /*width: 970px;*/
+  margin: 10px auto;
+}
+
+.main_top {
+  margin-top: 10px;
+}
+
+.main_topWeight {
+  margin-top: 10px;
+}
+
+.Content_Keyword strong {
+  font-size: 15px;
+}
+
+.checkbox_p {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.modal-header_boder {
+  width: 680px;
+  height: 500px;
+  background: #FFFFFF;
+}
+
+.modal-header_boder_Card_hu {
+  width: 680px;
+  height: 200px;
+  background: #FFFFFF;
+}
+
+.config_Model_card_Hu {
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.er {
+  padding-right: 17px;
+}
+
+.close_right {
+  margin-right: -35px;
+}
+
+.h_configure {
+  width: 100%;
+  margin: 20px 20px;
+}
+
+.h_configure_Card {
+  width: 100%;
+}
+
+.configure_content {
+  width: 100%;
+  height: 200px;
+  margin: 20px 10px;
+}
+
+.configure_content1 {
+  width: 100%;
+  height: 100px;
+  margin: 20px 10px;
+}
+
+/*??? ????????????*/
+.modal-footer_center {
+  text-align: center;
+}
+
+/*???????????*/
+.model_white {
+  color: white;
+  background-color: #0D968E;
+}
+
+/*???????????*/
+.Vertical_center {
+  width: 700px;
+  position: absolute;
+  margin-top: 100px;
+  background: #FFFFFF;
+}
+
+.Vertical_center_card_hu {
+  width: 200px;
+  position: absolute;
+  margin-top: 100px;
+  background: #FFFFFF;
+}
+
+.checkbox_p strong {
+  font-size: 17px;
+}
+
+/*模态框*/
+.modal_main {
+  width: 700px;
+  height: 100px;
+  margin: 10px 120px;
+}
+
+.modal-main-device {
+  width: 500px;
+  margin: 10px 120px;
+}
+
+.modal-main-device span {
+  margin-left: 40px;
+}
+
+.modal-main-device li {
+  margin: 20px 20px;
+}
+
+/*创建红包样式*/
+.create_main_center {
+  /*width: 700px;*/
+  /*height: auto;*/
+  padding-left: 10px;
+}
+
+.MoneyHuo_addRed {
+  border: 1px #999 solid;
+  width: 510px;
+  height: auto;
+  padding-top: 10px;
+  margin-left: -3px;
+  padding-left: 20px;
+}
+
+.form-control_red_input {
+  display: block;
+  width: 70%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.modal_main.modal_span.red_money_modal {
+  width: 700px;
+  height: auto;
+  margin: 10px 120px;
+}
+
+.modal_main li {
+  float: left;
+}
+
+.modal_main li strong {
+  color: #7D7676;
+}
+
+.modal_main span {
+  font-size: 14px;
+}
+
+.form-group_search {
+  cursor: pointer;
+  background-color: #16aad8;
+  color: #fff;
+  border: none;
+}
+
+.group_input {
+  width: 360px;
+}
+
+/*???*/
+.group_Card_hr {
+  width: 100%;
+  float: left;
+  border-bottom: 1px #333333 solid;
+}
+
+.group_Card_guan {
+  width: 100%;
+  float: left;
+}
+
+.group_Card_hr strong {
+  color: #16aad8;
+}
+
+.group_Card_guan strong {
+  color: #16aad8;
+}
+
+.group_Card_top {
+  width: 100%;
+}
+
+.CardCopon_Center_main {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*下载设备列表样式*/
+.device_margin {
+  margin: 15px 15px;
+}
+
+/*卡券样式*/
+.Card_edit_left {
+  width: 320px;
+  height: 800px;
+  float: left;
+  border: 1px darkgrey solid;
+}
+
+/*????????*/
+.Card_edit_right {
+  width: 600px;
+  height: 800px;
+}
+
+.Card_edit_heading {
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  border-bottom: 1px solid #dee5e7;
+  background-color: #F4F5F9;
+}
+
+.Card_edit_heading span {
+  margin-left: 20px;
+}
+
+.Card_edit_two {
+  width: 100%;
+  height: 560px;
+  float: left;
+}
+
+.Card_edit_two li {
+  margin: 15px 10px;
+}
+
+.Card_edit_Img {
+  width: 100%;
+  height: 150px;
+}
+
+.Card_edit_ma {
+  margin-left: 10px;
+  margin-top: -21px;
+}
+
+.card_custom_moData form .form-group label {
+  font-weight: normal;
+}
+
+.card_custom_moData form .form-group {
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+form .red_money_modal .form-group {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+form .red_money_modal .form-group .form-control {
+  width: 500px;
+}
+
+form .red_money_Moal .form-group {
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.card_custom_moData .col-sm-3.control-label {
+  padding-top: 0px;
+}
+
+.Card_edit_span {
+  width: 70px;
+  /*margin-top: -30px;*/
+}
+
+.Card_edit_maon {
+  margin-left: 18px;
+}
+
+.Card_edit_malast {
+  margin-left: 12px;
+}
+
+.Card_edit_maWeghtd {
+  margin-left: 32px;
+}
+
+.Card_edit_setM {
+  margin-left: 53px;
+}
+
+.Card_edit_setTh {
+  margin-left: 50px;
+}
+
+.Card_edit_setMin {
+  margin-left: 27px;
+}
+
+.Card_edit_setWe {
+  margin-left: 90px;
+}
+
+.Card_edit_setWe1 {
+  margin-left: 81px;
+}
+
+.Card_edit_input {
+  width: 30%;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/*???????*/
+.Card_edit_input_da {
+  width: 60%;
+  height: 32px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/*???????*/
+.Card_edit_input_Zhongda {
+  width: 152%;
+  height: 32px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.Card_edit_select {
+  width: 30%;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.CardCopon_Center_main_seting {
+  width: 100%;
+}
+
+.Card_edit_Setheading {
+  width: 100% border-bottom : 1 px solid #dee5e7;
+}
+
+.Card_edit_input_top {
+  margin-top: 30px;
+}
+
+.Card_edit_right_Service li {
+  float: left;
+  margin-top: 20px;
+}
+
+.Card_distance_span span {
+  margin-left: 20px;
+}
+
+/*??????????*/
+.red_money_input {
+  /*width: 70%;*/
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#hongUrl .w5c-error {
+  position: absolute;
+  margin-top: 5px;
+  color: red;
+}
+
+.modal_span span {
+  font-size: 13px;
+}
+
+.one_number {
+  width: 100%;
+}
+
+.red_money_top {
+  margin-top: 20px;
+}
+
+.redMoney_model_color {
+  color: orangered;
+}
+
+.red_money_right {
+  margin-right: 10px;
+}
+
+.Card_end_two {
+  width: 600px;
+  height: 900px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Card_end_inter {
+  margin-top: 40px;
+  width: 100%;
+  height: 50px;
+  clear: both;
+  overflow: hidden;
+}
+
+.Card_end_inter_ne {
+  width: 100%;
+  height: 50px;
+  clear: both;
+  overflow: hidden;
+}
+
+.redMoney_getDiv {
+  width: 50%;
+  margin-left: 700px;
+  overflow: hidden;
+}
+
+.redMoney_getDiv p {
+  margin-top: 20px;
+}
+
+.redMoney_getDiv strong {
+  margin-left: 30px;
+}
+
+/*
+H5页面样式
+*/
+.mod-coupon {
+  min-height: 100%
+}
+
+.mod-coupon-head {
+  height: 400px;
+  background: url("/images/lace_gray.png") repeat-x bottom;
+  color: #fff;
+  text-align: center;
+  -webkit-background-size: 6px;
+  /*border: 1px red solid;*/
+  background-size: 6px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.mod-coupon-head-detail {
+  height: 300px;
+  background: url("/images/lace_gray.png") repeat-x bottom;
+  color: #fff;
+  text-align: center;
+  -webkit-background-size: 6px;
+  /*border: 1px red solid;*/
+  background-size: 6px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.button-border {
+  border: 1px #fff solid !important;
+}
+
+/*修改后的卡券预览样式*/
+.mod-coupon-picFriend {
+  width: 250px;
+  height: 100px;
+  border: 1px #9C9DA0 solid;
+}
+
+.mod-coupon-border {
+  width: 290px;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-top: 1px solid #dfdfde;
+  border-bottom: 1px solid #dfdfde;
+  padding-left: 15px;
+  background-color: #fff
+}
+
+.mod-coupon-header {
+  background: #159EAD;
+  position: fixed;
+  margin-top: 50px;
+}
+
+.mod-coupon-header-create {
+  /*position: fixed;*/
+  margin-left: 10px;
+  margin-top: 30px;
+  height: 450px;
+  width: 300px;
+  /*/!*background-color: #fff;*!/*/
+  /*border:1px red solid;*/
+}
+
+.mod-coupon__head_white {
+  -webkit-background-size: 6px;
+  background: #fff;
+  background-size: 6px
+}
+
+.mod-coupon__head-title {
+  padding: 16px 0 0 15px
+}
+
+.mod-coupon__head-avatar {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  /*position: absolute;*/
+  /*border: 1px red solid;*/
+  background: #fff;
+  background-clip: padding-box
+}
+
+.mod-coupon__head-name {
+  margin-left: 10px;
+  line-height: 40px
+}
+
+.mod-coupon__head-money {
+  font-size: 30px;
+  margin-top: 5px;
+  color: #000022;
+}
+
+.mod-coupon__head-expire {
+  font-size: 12px;
+  margin-top: 25px;
+  color: #000022;
+  opacity: .5
+}
+
+.mod-coupon__desc {
+  line-height: 1.2;
+  padding: 20px 0 20px;
+  text-align: center;
+  background-color: #fff
+}
+
+.mod-coupon__num {
+  font-size: 16px;
+  color: #000
+}
+
+.mod-coupon__use {
+  color: #666;
+  font-size: 14px
+}
+
+.mod-coupon-detail-list {
+  border-top: 1px solid #dfdfde;
+  /*border-bottom: 1px solid #dfdfde;*/
+  padding-left: 15px;
+  margin-top: 55px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.mod-coupon__detail-item {
+  border-top: 1px solid rgba(222, 222, 222, .5)
+}
+
+.mod-coupon__detail-item a {
+  width: 270px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.mod-coupon__detail-item:first-child {
+  border-top: none
+}
+
+.mod-coupon-detail-list-card {
+  margin-top: 15px;
+  border-radius: 5px;
+  padding-left: 15px;
+
+  background-color: #fff;
+}
+
+.mod-coupon-detail-list-card a {
+  border-radius: 5px;
+  background: #fff;
+}
+
+.mod-coupon__detail {
+  display: block;
+  position: relative;
+  padding: 10px 16px;
+  color: #000;
+  text-decoration: none
+}
+
+.mod-coupon__detail:hover {
+  text-decoration: none
+}
+
+.mod-coupon__arrow-right {
+  display: inline-block;
+  *zoom: 1;
+  width: 9px;
+  height: 13px;
+  /*background-image: url("/images/style-h5-coupon.png");*/
+  background-position: -0px -0px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  margin-top: -8px
+}
+
+.mod-coupon__button-placeholder {
+  height: 70px;
+  position: static
+}
+
+.mod-coupon-button-wrap {
+  padding: 30px 0;
+  /*margin-top: 10px;*/
+}
+
+.mod-coupon__button {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #159EAD;
+  text-align: center;
+  color: #fff;
+  background-color: #159EAD;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  text-decoration: none;
+}
+
+.mod-coupon-create-li {
+  border-bottom: 1px #fff solid;
+}
+
+/*卡券详情的按钮*/
+.mod-coupon-button-detail {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #0D968E;
+  text-align: center;
+  color: #fff;
+  background-color: #0D968E;
+  margin-left: 15px;
+  margin-right: 10px;
+  font-size: 16px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  text-decoration: none;
+}
+
+.mod-coupon__button:hover {
+  text-decoration: none;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-resolution: 240dpi) {
+  .mod-coupon__arrow-right {
+    background-image: url("../images/style-h5-coupon@2x.png");
+    -webkit-background-size: 9px;
+    background-size: 9px;
+    background-position: -0px -0px;
+  }
+}
+
+/*
+H5???????
+*/
+/*??????*/
+.Color010 {
+  background-color: #63b359;
+}
+
+.Color020 {
+  background-color: #2c9f67;
+}
+
+.Color030 {
+  background-color: #509fc9;
+}
+
+.Color040 {
+  background-color: #5885cf;
+}
+
+.Color050 {
+  background-color: #9062c0;
+}
+
+.Color060 {
+  background-color: #d09a45;
+}
+
+.Color070 {
+  background-color: #e4b138;
+}
+
+.Color080 {
+  background-color: #ee903c;
+}
+
+.Color081 {
+  background-color: #f08500;
+}
+
+.Color082 {
+  background-color: #a9d92d;
+}
+
+.Color090 {
+  background-color: #dd6549;
+}
+
+.Color100 {
+  background-color: #cc463d;
+}
+
+.Color101 {
+  background-color: #cf3e36;
+}
+
+.Color102 {
+  background-color: #5E6671;
+}
+
+.redSwitchKanYu {
+  width: 500px;
+  margin-top: 140px;
+  margin-left: 50px;
+}
+
+.redSwitchKanYu1 {
+  width: 500px;
+}
+
+.redSwitchKanAdd {
+  width: 600px;
+  margin-left: 50px;
+}
+
+.configure_content_redAdd {
+  width: 680px;
+  height: 120px;
+  margin-left: 50px;
+}
+
+.btn_add {
+  margin-left: 60px;
+}
+
+.add_red_switch {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.col-xs-5.col-md-4 {
+  background-color: #f4f5f9;
+}
+
+.col-xs-6.col-md-7 {
+  background-color: #f4f5f9;
+}
+
+.pull-left.btn.btn-primary.btn-sm.day-data {
+  height: 100px;
+  padding-top: 10px;
+  width: 210px;
+  text-align: center;
+  margin-left: 30px;
+  cursor: auto;
+}
+
+.date-num {
+  width: 148px;
+  margin-left: 5px;
+
+}
+
+.form-horizontal-input {
+  width: 170%;
+}
+
+#addRpForm .form-group {
+  padding: 0px;
+}
+
+#addRpForm .w5c-error {
+  position: inherit;
+  margin-top: 0px;
+  color: red;
+}
+
+#add_form-horizontal .w5c-error {
+  position: inherit;
+  margin-top: 0px;
+  color: red;
+}
+
+.redMoneyUl .col-xs-6.col-md-5, .redMoneyUl .col-xs-6.col-md-7 {
+  border: 1px solid #F4F5F9;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.redMoneyUl .row {
+  margin-left: 0px;
+}
+
+/*卡券互通页面样*/
+.kuCunNumber {
+  float: right;
+  margin-right: 210px;
+  margin-top: -30px;
+}
+
+.KuUlMarin {
+  margin-left: 20px;
+}
+
+.KuUlMarin .active a:hover {
+  background: #fff;
+}
+
+.laber_Warning {
+  color: red;
+}
+
+#add_form-horizontal .col-sm-9.discount-title .w5c-error {
+  position: relative;
+  float: right;
+  margin-right: 150px;
+}
+
+/*
+推广页面css
+*/
+
+form.addPromoteForm.form-horizontal .form-group {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+
+}
+
+form.addPromoteForm.form-horizontal .form-group label {
+  font-weight: normal;
+}
+
+.addPromoteForm hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.addPromoteForm .gridStyle {
+  min-height: 50px;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.form-group.promote-page {
+  margin-left: 0;
+}
+
+.addPromoteForm .form-control.date {
+  width: 150px;
+}
+
+.citySelect select {
+  padding: 6px 5px;
+  margin-left: 10px;
+}
+
+/*
+用户信息
+*/
+.user-info form.form-horizontal .form-group {
+  padding: 0;
+}
+
+#menuUl .menuLi {
+  text-align: left;
+}
+
+#menuUl .menuLi a:link {
+  display: block;
+  cursor: auto;
+}
+
+.input-group-addon.searchBtnBgc {
+  cursor: pointer;
+  background-color: #159EAD;
+  color: #fff;
+  border: none;
+}
+
+.nav-pills li a {
+  color: #58666e;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  background-color: #159EAD;
+
+}
+
+.operationTips {
+  position: fixed;
+  font-size: 18px;
+  top: 0;
+  left: 40%;
+  width: 20%;
+  background-color: #18bc9c;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(-100);
+  -webkit-transform: translateY(-100);
+  -moz-transform: translateY(-100);
+  -o-transform: translateY(-100);
+  display: none;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all 2s .4s ease-in-out;
+}
+
+.operationTips1 {
+  position: fixed;
+  font-size: 18px;
+  top: 0;
+  left: 40%;
+  width: 20%;
+  background-color: #18bc9c;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(-100);
+  -webkit-transform: translateY(-100);
+  -moz-transform: translateY(-100);
+  -o-transform: translateY(-100);
+  display: none;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all 2s .4s ease-in-out;
+}
+
+.operationTips-animate {
+  display: block;
+  opacity: 1;
+  z-index: 10000;
+  text-align: center;
+  transform: translateY(100);
+  -webkit-transform: translateY(100);
+  -moz-transform: translateY(100);
+  -o-transform: translateY(100);
+  -ms-transform: translateY(100);
+}
+
+.clearWord {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 62px;
+  top: 6px;
+  z-index: 10000;
+}
+
+/*推广样式*/
+.addPromoteForm .control-label {
+  padding-top: 0px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+/*门店上传图片的样*/
+.img-src img {
+  margin-left: 10px;
+  border: 1px #CCCCCC solid;
+}
+
+.storeWidth {
+  width: 703px;
+}
+
+/*门店地图*/
+.Mapcontent p {
+  width: 603px;
+  padding-top: 3px;
+  overflow: hidden;
+}
+
+#container {
+  min-width: 690px;
+  min-height: 450px;
+}
+
+/*卡券颜色*/
+.color_picker .dropdown_data_list .dropdown_data_item.tr1td1 a {
+  background-color: #63b359;
+}
+
+.color_picker .dropdown_data_list {
+  width: 127px;
+  max-height: none;
+  padding: 5px;
+  margin: 0;
+}
+
+.color_picker .dropdown_data_list .dropdown_data_item {
+  display: inline-block;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.dropdown_data_container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  margin-top: -1px;
+  left: 0;
+  z-index: 1;
+  min-width: 100%;
+}
+
+.btn.dropdown_switch {
+  background-color: #fff;
+  background-image: -moz-linear-gradient(top, #fff 0, #fff 100%);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fff));
+  background-image: -webkit-linear-gradient(top, #fff 0, #fff 100%);
+  background-image: -o-linear-gradient(top, #fff 0, #fff 100%);
+  background-image: linear-gradient(to bottom, #fff 0, #fff 100%);
+  border-color: #e6e7ec;
+  color: #222;
+  height: 30px;
+  line-height: 30px;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+  text-align: left;
+}
+
+.dropdown_switch {
+  position: relative;
+}
+
+.color_picker .dropdown_switch label {
+  width: 22px;
+  height: 22px;
+  margin-top: 4px;
+  margin-left: 5px;
+  text-indent: -100px;
+}
+
+.dropdown_menu.open {
+  z-index: 2;
+}
+
+.dropdown_menu {
+  vertical-align: middle;
+  width: 116px;
+}
+
+.dropdown_menu {
+  display: inline-block;
+  position: relative;
+  width: 95px;
+  line-height: normal;
+  text-align: left;
+  font-size: 0;
+}
+
+/*公众号设�*/
+.importeDevice li {
+  float: left;
+  margin-left: 20px;
+}
+
+/*上传图片*/
+.div1-upload {
+  float: left;
+  height: 31px;
+  width: 140px;
+  color: #58666e;
+  position: relative;
+}
+
+.div2-upload {
+  text-align: center;
+  padding-top: 5px;
+  color: #333;
+}
+
+.inputstyle-upload {
+  width: 180px;
+  height: 41px;
+  cursor: pointer;
+  font-size: 30px;
+  outline: medium none;
+  position: absolute;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  opacity: 0;
+  left: 0px;
+  top: 0px;
+}
+
+/*新增页面 选中模板样式*/
+.select-div-old-card {
+  width: 980px;
+  columns: 220px 4;
+  -moz-columns: 220px 4;
+  -webkit-columns: 220px 4;
+}
+
+/*选中效果*/
+.select-div-card-li-before {
+  content: "\2714";
+  display: block;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #00c09e;
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  z-index: 10;
+  opacity: 0;
+  transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+/*给背景加上选中图标*/
+.div-circle {
+  position: absolute;
+  margin-left: 85px;
+  margin-top: 150px;
+  display: none;
+}
+
+/*给背景加上选中图标*/
+.div-circle-custom {
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -234px;
+  display: none;
+}
+
+/*给背景加上选中图标*/
+.div-url-circle {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -620px;
+  display: none;
+}
+
+/*给背景加上边�*/
+.div-img-back {
+  background: -webkit-linear-gradient(235deg, rgba(255, 255, 255, .1) 60%, rgba(255, 255, 255, 0) 60%);
+  background: -moz-linear-gradient(235deg, rgba(255, 255, 255, .1) 60%, rgba(255, 255, 255, 0) 60%);
+  background: -o-linear-gradient(235deg, rgba(255, 255, 255, .1) 60%, rgba(255, 255, 255, 0) 60%);
+  box-shadow: 0 0 0 2px #159EAD;
+  animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  -o-animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  -ms-animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  -moz-animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  -webkit-animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+/*新增海报预览*/
+.posterCard {
+  /*border-bottom: 1px #C0C0C0 solid;*/
+  height: 30px;
+  text-align: center;
+  background: #f4f5f9;
+  line-height: 30px;
+}
+
+/*及时体验*/
+.triangle-up {
+  padding: 0;
+  margin: 0
+}
+
+.posterCard-experience {
+  width: 112px;
+  height: 50px;
+  position: absolute;
+  margin-left: 95px;
+  text-align: center;
+  line-height: 80px;
+  border-bottom: 1px solid #159EAD;
+  -webkit-transform: translateY(-22px) translateX(2px) rotate(27deg);
+}
+
+.app-hr-border {
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 30px;
+}
+
+.select-div-app-two-border {
+  width: 800px;
+  margin-top: 20px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.select-div-old-card1 {
+  width: 1000px;
+}
+
+.select-div-old-card1 li:first-child {
+  margin-left: 28px;
+}
+
+.select-div-old-card1 li {
+  float: left;
+  margin-left: 40px;
+}
+
+.select-div-app-layer-two-border {
+  width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.select-div-app-layer-two-border li:first-child {
+  margin-left: 28px;
+}
+
+.select-div-app-layer-two-border li {
+  float: left;
+  margin-left: 40px;
+}
+
+.select-div-app-two-border li {
+  margin-left: 30px;
+}
+
+.div-img-back-switch {
+  background: -webkit-linear-gradient(235deg, rgba(255, 255, 255, .1) 60%, rgba(255, 255, 255, 0) 60%);
+  background: -moz-linear-gradient(235deg, rgba(255, 255, 255, .1) 60%, rgba(255, 255, 255, 0) 60%);
+  background: -o-linear-gradient(235deg, rgba(255, 255, 255, .1) 60%, rgba(255, 255, 255, 0) 60%);
+  box-shadow: 0 0 0 2px #159EAD;
+  animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  -o-animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  -ms-animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  -moz-animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  -webkit-animation: selected 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+/*给背景加上选中图标*/
+.div-url-circle-app-switch {
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 100px;
+  display: none;
+}
+
+.urlPage {
+  width: 206px;
+
+  height: 290px;
+  /*box-shadow: 2px 2px 5px rgba(0,0,0,.3);*/
+  border: 1px solid #ddd;
+  /*border: 1px solid silver;*/
+}
+
+.urlPage:hover {
+  transform: scale(1.02);
+}
+
+.urlPage .url-page-image img {
+  width: 205px;
+  height: 204px;
+
+}
+
+.urlPage .url-page-image .url-page-word {
+  width: 206px;
+  height: 44px;
+  padding: 10px 25px;
+  color: #58666e;
+}
+
+.urlPage .url-page-image .url-page-title {
+  width: 206px;
+  height: 40px;
+  /*background: #f4f5f9;*/
+  font-size: 16px;
+  font-weight: bold;
+  color: #159EAD;
+  padding-top: 10px;
+}
+
+/*卡券h5预览样式 更新卡券样式*/
+.mod-simple-create-header {
+  width: 320px;
+  height: 600px;
+  position: fixed;
+  margin-top: 50px;
+  background: #f6f6f8 url("../../../images/pic/cardticket/topbar28a82e.png") no-repeat center 5px;
+  /*border: 1px red solid;*/
+}
+
+.mod-simple-detail-header {
+  width: 320px;
+  height: 600px;
+  position: absolute;
+  /*margin-top: 50px;*/
+  /*border: 1px red solid;*/
+}
+
+.modal-backdrop-last {
+  display: none;
+}
+
+.mod-coupon-head-copy {
+  height: 400px;
+  /*background: url("/images/lace_gray.png") repeat-x bottom;*/
+  color: #fff;
+  text-align: center;
+  -webkit-background-size: 6px;
+  /*border: 1px red solid;*/
+  background-size: 6px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.btn.btn-primary.btn-application-operate {
+  border: 1px solid #dee5e7;
+  background: #fff;
+  color: #58666e;
+}
+
+.btn.btn-primary.btn-application-operate.btn-application-operate-active {
+  border: 1px solid #dee5e7;
+  background: #f4f5f9;
+  color: #58666e;
+}
+
+/*选填必填字段 灰色*/
+.font-is-gray {
+  color: #58666e;
+
+}
+
+/*应用管理*/
+
+.app-item {
+  position: relative;
+  margin-bottom: 30px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  transition: color .2s ease, border .2s ease;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.app-item .app-item-meta {
+  padding: 8px 15px 6px;
+}
+
+.app-item .app-item-stats {
+  padding: 0 15px 12px;
+}
+
+.app-item .app-item-stats .figure-wrap.row {
+  width: 100%;
+  margin-left: 0;
+  /*float: left;*/
+}
+
+.application-class-name-li a {
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+  color: #58666e;
+}
+
+.application-class-name-li {
+  border: 1px solid #dee5e7;
+  border-collapse: collapse;
+}
+
+.application-class-name-li.active {
+  background-color: #f4f5f9;
+}
+
+.op.btn-group.application-btn-group {
+  margin-bottom: 20px;
+}
+
+.col-lg-3.col-md-3.col-sm-6.col-xs-12.application-detail:first-child {
+  margin-left: -15px;
+  margin-right: 0;
+}
+
+.application-grid.gridStyle {
+  margin-top: 0;
+  border-radius: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+/*改变门店样式 --门店管理*/
+.branch-left-border {
+  border: 1px #DDDDDD solid;
+  float: left;
+  width: 200px;
+  height: 600px;
+}
+
+.branch-left-border-padding {
+  /*padding: 10px 10px;*/
+  padding-left: 20px;
+}
+
+.branch-left-border ul {
+  margin-left: 15px;
+}
+
+.branch-right-content {
+  /*width: 770px;*/
+  min-height: 80px;
+}
+
+.branch-right-content li {
+  margin-top: 15px;
+}
+
+.branch-right-content li:first-child {
+  margin-top: 0;
+}
+
+/*员工管理*/
+.staff-border-content {
+  width: 800px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.subordinateStaff-border {
+  margin-top: 30px;
+}
+
+.subordinateStaff-modal_main {
+  width: 700px;
+  height: 500px;
+}
+
+.switch-border-div-left {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin-left: 30px;
+  overflow: auto;
+}
+
+.switch-border-div-left li {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.switch-border-div-arrow {
+  width: 50px;
+  height: 400px;
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+  color: #58666e;
+  padding-top: 200px;
+}
+
+.switch-border-div-right {
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-left: 30px;
+  overflow: auto;
+}
+
+.switch-border-div-right-height {
+  height: 395px;
+  width: 250px;
+  border-radius: 2px;
+  overflow: auto;
+}
+
+.add-lottery-hr {
+  width: 530px;
+  height: 30px;
+  /* float: left; */
+  margin-left: -10px;
+  margin-top: 20px;
+  border-top: 1px #E7E7E8 solid;
+  /* margin: 10px; */
+}
+
+summary {
+  outline: none !important;
+}
+
+.modal_main-staff ul {
+  margin: 0px auto;
+}
+
+.modal_main-staff ul li {
+  margin-top: 25px;
+}
+
+.main-error .w5c-error {
+  position: absolute;
+  margin-top: 5px;
+  color: red;
+}
+
+.btn-switch-status {
+  display: none;
+}
+
+.preview_title img {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  top: 4px;
+}
+
+.cur_poi {
+  cursor: pointer;
+}
+
+.div-input-array {
+  width: 600px;
+  float: left;
+}
+
+.left-input-staff {
+  width: 100px;
+  float: left;
+}
+
+.div-edit-staff .div-input-array .w5c-error {
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+.div-edit-interval {
+  margin-bottom: 20px !important;
+}
+
+.div-edit-interval-top {
+  margin-top: 20px !important;
+}
+
+.div-edit-interval-top-password {
+  margin-top: 26px !important;
+}
+
+/*jstree*/
+.jstree-default .jstree-icon, .jstree-default .jstree-node {
+  background-image: url("../../images/32px.png");
+
+}
+
+.jstree-default .jstree-node {
+  background-position: -292px -4px;
+  background-repeat: repeat-y;
+  margin-left: 18px;
+}
+
+/*门店列表下拉框样式*/
+.branch-list-table select{
+  background: #f4f5f9;
+  border: none;
+}
+
+.branch-list-class.page-list .no-items{
+  font-size: 16px;
+  margin-right: 340px;
+  margin-top: 100px;
+}
+
+.switch_btn_css {
+  background: #CCCCCC;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 2px;
+  float: left;
+}
+
+/*新增 员工 失败 */
+.addStaffForm .w5c-error{
+  position: absolute;
+  margin-top: 2px;
+  color: red;
+}
+
+/*新增 员工 失败 */
+.updateStaffForm .w5c-error{
+  position: absolute;
+  margin-top: 2px;
+  color: red;
+}
+
+
+#body_modal{
+  padding-right: 0;
+}
+
+/*微应用 样式*/
+.font-weight-color{
+  color: #58666E;
+  font-size: 20px;
+}
+
+/*鼠标移上图片放大的*/
+.UrlPage-microSite:hover {
+  transform: scale(1.5, 1.5);
+  transition: .5s transform;
+}
+

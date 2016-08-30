@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <title>Js复制</title>
+    <script type="text/javascript">
+        function copyUrl2() {
+            var Url2 = document.getElementById("biao1");
+            Url2.select();
+            document.execCommand("Copy");
+            alert("已复制，请黏贴");
+        }
+    </script>
+</head>
+<body>
+<input cols="20" rows="10" id="biao1" value="http://jxydyl.com/index.php?rec=BAU=" readonly="readonly"/>
+<input type="button" onClick="copyUrl2()" value="点击复制"/>
+</body>
+</html>
