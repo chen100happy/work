@@ -19,11 +19,10 @@
         url: '/',
         views: {
           '': {
-            templateUrl: 'app/components/user/user-login.html'
+            templateUrl: 'app/components/user/user-login1.html'
           },
           'maingrid@login': {
-            templateUrl: 'app/components/user/user-login.html',
-            controller: 'UserLoginController'
+            templateUrl: 'app/components/user/user-login1.html',
           }
         }
       })
